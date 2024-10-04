@@ -15,6 +15,10 @@ This template assumes you have a local network running on your machine. The easi
 `npm run build` will compile the contract to TEAL and generate an ABI and appspec JSON in [./contracts/artifacts](./contracts/artifacts/) and a algokit TypeScript client in [./contracts/clients](./contracts/clients/).
 
 `npm run compile-contract` or `npm run generate-client` can be used to compile the contract or generate the contract seperately.
+### Dynamic NFT smart contract
+DNFTLogidtics.algos.ts has the Dynamic NFT logistics smart contract which function like creating an parcel which creates the NFT and maps parcel data to the NFT . you can change the token Uri which will be a link to ipfs storage which contains parcel details . 
+### HelloWorld.test.ts contains the test cases to mint the NFT and change token URI .
+
 
 ### Run Tests
 
